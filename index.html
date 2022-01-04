@@ -29,11 +29,11 @@
   <section class="webdesigntuts-workshop">
     <form id="formgarage">
       <label>   
-      <input type="text" id ="userinput" size="10" placeholder="what did you find">		   
+      <input type="text" id ="userinput" size="10" placeholder="what did you find"onkeyup="this.value = this.value.toUpperCase();" >		   
       </label>  	
       <button id ="submitinput" type="submit">Submit</button>
     </form>
-    <div id="result"></div>
+    <div class="eventtext" id="result"></div>
   </section>
 <!-- form end -->
 
@@ -46,5 +46,13 @@
 
 </body>
 <script src="assets/eh_popcorngarage.js"></script>
+
+<script>
+  window.onload = function(){
+    setTimeout( function(){
+        document.getElementById("youwin").style.display = 'none';
+      }, 5000);
+  };
+  </script>
 </html>
 

@@ -178,7 +178,7 @@ header {
       
 @keyframes glow {
     0% {
-     border-color: #393;
+    border-color: #393;
     box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
     }	
     100% {
@@ -186,23 +186,14 @@ header {
     box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
     }
   }
+/* you win text */
+  .eventtext {
+    visibility: hidden;
+    font-size: 40pt;
+    color: turquoise;
+    position:relative;
+    margin-top: -50vh;
 
-
-/* Footer */
-
-section {
-    padding: 1em;
-    }
-
-    #footer {
-        background: #000000 !important;
-    }
-
-    #footer a {
-        color: #ffffff;
-    }
-    #footer p {
-      color: #ffffff;
   }
 
 
