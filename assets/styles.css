@@ -187,13 +187,54 @@ header {
     }
   }
 /* you win text */
-  .eventtext {
-    visibility: hidden;
-    font-size: 40pt;
-    color: turquoise;
-    position:relative;
-    margin-top: -50vh;
+  /* .eventtext {*/
+    /*visibility: hidden;*/
+    /*font-size: 40pt;*/
+    /*color: turquoise;*/
+    /*position:relative;*/
+    /*margin-top: -50vh;*/
 
+  /*}*/
+
+
+
+
+
+
+
+
+
+
+
+  .wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 3.5s steps(20), blink .7s step-end infinite alternate;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
   }
 
 
