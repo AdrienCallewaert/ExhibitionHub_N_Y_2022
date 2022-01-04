@@ -1,6 +1,7 @@
-$('#joke-form').on('submit', function(event) {
+
+$('#formgarage').on('submit', function(event) {
     event.preventDefault();
-    const words = $('#joke-form #userinput').val(); 
+    const words = $('#formgarage #userinput').val(); 
     console.log(words);
       if (words === "Klimt") {
         $('#result').text("Well, good answer!");
@@ -9,5 +10,6 @@ $('#joke-form').on('submit', function(event) {
         $('#result').text("Fail, try agin!");
     }
     });
+    
     
     
