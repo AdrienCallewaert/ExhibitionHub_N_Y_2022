@@ -326,9 +326,6 @@ header {
     visibility: hidden;
     display: none;
   }
-}
-
-@media screen and (max-width: 1000px) {
   .bg {
     visibility: hidden;
     display: none;
