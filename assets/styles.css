@@ -321,21 +321,21 @@ header {
 
 /* smartphone only masque */
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 870px) {
   .navnav {
     visibility: hidden;
     display: none;
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 870px) {
   .bg {
     visibility: hidden;
     display: none;
   }
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 870px) {
   #header2 {
     visibility: hidden;
     display: none;
