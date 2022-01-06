@@ -124,6 +124,8 @@ $('#formgarage').on('submit', function(event) {
                                     console.log(count)
                                     console.log(wordsvalidated);
                                 }
+                                // Add variation text
+
     else {
       $('#result').text("Well, try again!");
       timeEvent();
