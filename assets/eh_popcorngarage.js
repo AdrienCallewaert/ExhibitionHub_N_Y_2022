@@ -141,6 +141,15 @@ $('#formgarage').on('submit', function(event) {
                                     console.log(wordsvalidated)
                                     countscreen();
                                 }
+                                else if (words === "PHOTOCITY" && !(wordsvalidated.includes('PHOTOCITY'))) {
+                                  $('#result').text("Good answer!");
+                                  timeEvent()
+                                  const count = wordsvalidated.push('PHOTOCITY')
+                                  console.log(count)
+                                  console.log(wordsvalidated)
+                                  countscreen();
+                              }
+
                                 // Add variation text
                                 
     else {
