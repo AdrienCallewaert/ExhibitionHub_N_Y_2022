@@ -125,10 +125,10 @@ $('#formgarage').on('submit', function(event) {
                                 console.log(wordsvalidated)
                                 countscreen();
                             }
-                                else if (words === "POP MASTER" && !(wordsvalidated.includes('POP MASTER'))) {
+                                else if (words === "POP MASTERS" && !(wordsvalidated.includes('POP MASTERS'))) {
                                   $('#result').text("Good answer!");
                                   timeEvent()
-                                  const count = wordsvalidated.push('POP MASTER')
+                                  const count = wordsvalidated.push('POP MASTERS')
                                   console.log(count)
                                   console.log(wordsvalidated)
                                   countscreen();
