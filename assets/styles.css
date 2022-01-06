@@ -19,7 +19,7 @@ body {
 
 
 
-
+    
 
 /* menu*/
 header {
@@ -28,6 +28,10 @@ header {
     padding-right: 10rem;
     background-color: #000000;
 
+  }
+
+  #countwin  {
+    color: #fff;
   }
 
 .navnav ul{
