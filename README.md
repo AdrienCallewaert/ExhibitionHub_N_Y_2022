@@ -9,6 +9,6 @@ Création largement inspirée du sublime **Pop Corn GARAGE**.
 - HTML, CSS et JavaScript
 
 **Crédit Music**
-Misique youtube de Cryo Chamber, Titre **Dark Steampunk Mix**.
+Musique youtube de Cryo Chamber, Titre **Dark Steampunk Mix**.
 [Source](https://www.youtube.com/watch?v=N0pHcH5dYSw(Steampunk song)). 
 
