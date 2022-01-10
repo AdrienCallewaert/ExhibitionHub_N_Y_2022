@@ -182,7 +182,7 @@ $('#formgarage').on('submit', function(event) {
         countscreen();
         // variation banksy -----------------------------------------------------------------------------------------------------------------------------------
     } else if (words === "BANSKY" && !(wordsvalidated.includes('BANKSY'))) {
-        $('#result').text("Bansky, are you serious?");
+        $('#result').text("Bansky, Giiiiiiiilles?");
         timeEvent()
         const count = wordsvalidated.push('BANKSY')
         console.log(count)

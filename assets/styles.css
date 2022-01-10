@@ -306,6 +306,18 @@ p {
         visibility: hidden;
         display: none;
     }
+    #player {
+        visibility: hidden;
+        display: none;
+    }
+    .menu-button {
+        visibility: hidden;
+        display: none;
+    }
+    .button__holder {
+    visibility: hidden;
+    display: none;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -482,3 +494,4 @@ p {
     transform: rotate(45deg);
     box-shadow: 0 0 1px 15px rgba(138, 59, 88, 0.4), 0 0 1px 30px rgba(138, 59, 88, 0.1), 0 0 1px 45px rgba(138, 59, 88, 0.1);
 }
+
