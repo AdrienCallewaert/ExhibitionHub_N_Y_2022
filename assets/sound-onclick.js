@@ -1,8 +1,8 @@
-$( document ).ready(function() {
+$(document).ready(function() {
     const song = document.getElementsByTagName('audio')[0];
     song.load();
 });
-$(function () {
+$(function() {
     const song = document.getElementsByTagName('audio')[0],
         sourceOgg = document.getElementsByTagName('audio')[0],
         sourceMp3 = document.getElementsByTagName('audio')[0];
@@ -10,7 +10,7 @@ $(function () {
     sourceOgg.src = 'Sources/Dark Steampunk Mix-compress.ogg';
     sourceMp3.src = 'Sources/dark-steampunk-mix-compress.mp3';
 
-    $('#player').click(function (e) {
+    $('#player').click(function(e) {
         e.preventDefault();
         if (song.paused) song.play();
         else song.pause();
@@ -21,7 +21,7 @@ $(function () {
         else
             $('#playback').attr('class', 'fa fa-pause fa-lg beat');
     });
-    song.addEventListener('ended', function () {
+    song.addEventListener('ended', function() {
         song.pause();
         song.currentTime = 0;
         $('#playback').attr('class', 'fa fa-play fa-lg');

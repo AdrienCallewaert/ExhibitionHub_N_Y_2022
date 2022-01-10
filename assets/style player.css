@@ -1,5 +1,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
- *, *:before, *:after {
+*,
+*:before,
+*:after {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -8,36 +10,42 @@
 
 #player {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -80px 0 0 -60px;
+    display: flex;
+    left: 12rem;
+    bottom: 8.2rem;
 }
+
 #player:after {
     position: absolute;
-    content:'';
-    width: 50px;
-    height: 50px;
+    content: '';
+    width: 40px;
+    height: 40px;
     left: 0;
     border-radius: 25px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 #playback {
     position: absolute;
     color: #d81558;
     text-shadow: 0 0 40px #000;
 }
+
 .fa-play {
     top: 55px;
     left: 45px;
 }
+
 .fa-pause {
     top: 55px;
     left: 40px;
 }
+
 .fa-lg {
-    font-size: 3.3em;
+    font-size: 2.5em;
 }
+
 @-webkit-keyframes beat {
     0% {
         -webkit-transform: scale(1);
@@ -52,6 +60,7 @@
         text-shadow: 0 0 40px #000;
     }
 }
+
 @keyframes beat {
     0% {
         transform: scale(1);
@@ -66,6 +75,7 @@
         text-shadow: 0 0 40px #000;
     }
 }
+
 .beat {
     -webkit-animation: beat 0.8s ease 0s infinite normal;
     animation: beat 0.8s ease 0s infinite normal;
