@@ -393,7 +393,7 @@ p {
     position: absolute;
     right: 30px;
     bottom: 30px;
-    background: #dc4e41;
+    background: #175c94;
 }
 
 .menu-button a:nth-child(4) {
@@ -433,7 +433,7 @@ p {
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     transition-delay: 0s;
-    background: #d83a2b;
+    background: #175c94;
 }
 
 .menu-button:hover a:nth-child(4) {
