@@ -366,7 +366,7 @@ $('#formgarage').on('submit', function(event) {
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
-        eventrue();
+        eventgodmod();
     } else {
         $('#result').text("Well, try again!");
         timeEvent()
@@ -382,10 +382,14 @@ function eventrue() {
 const music = new Audio('Sources/MACHAppl_ID 1631.ogg');
 music.play();
 music.loop = false;
-
 }
 function eventfalse() {
     const music = new Audio('Sources/MECHHydr_ID 1493.ogg');
+    music.play();
+    music.loop = false;
+    }
+function eventgodmod() {
+    const music = new Audio('Sources/StarTrekTheme.ogg');
     music.play();
     music.loop = false;
     }
