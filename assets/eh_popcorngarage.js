@@ -110,19 +110,19 @@ $('#formgarage').on('submit', function(event) {
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "MAGRITTE" && !(wordsvalidated.includes('MAGRITTE'))) {
+    } else if (words === "MAGRITTE" && !(wordsvalidated.includes('MAGRITTE: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Magritte, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('MAGRITTE')
+        const count = wordsvalidated.push('MAGRITTE: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "DALI" && !(wordsvalidated.includes('DALI'))) {
+    } else if (words === "DALI" && !(wordsvalidated.includes('DALI: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Dali, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('DALI')
+        const count = wordsvalidated.push('DALI: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
@@ -340,38 +340,38 @@ $('#formgarage').on('submit', function(event) {
         addenter()
         eventrue();
         // variation Magritte -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "RENE MAGRITTE" && !(wordsvalidated.includes('MAGRITTE'))) {
+    } else if (words === "RENE MAGRITTE" && !(wordsvalidated.includes('MAGRITTE: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Magritte, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('MAGRITTE')
+        const count = wordsvalidated.push('MAGRITTE: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "MAGRITTE RENE" && !(wordsvalidated.includes('MAGRITTE'))) {
+    } else if (words === "MAGRITTE RENE" && !(wordsvalidated.includes('MAGRITTE: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Magritte, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('MAGRITTE')
+        const count = wordsvalidated.push('MAGRITTE: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
         // variation dali -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "SALVADOR DALI" && !(wordsvalidated.includes('DALI'))) {
+    } else if (words === "SALVADOR DALI" && !(wordsvalidated.includes('DALI: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Dali, you found it");
         timeEvent()
-        const count = wordsvalidated.push('DALI')
+        const count = wordsvalidated.push('DALI: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "DALI SALVADOR" && !(wordsvalidated.includes('DALI'))) {
+    } else if (words === "DALI SALVADOR" && !(wordsvalidated.includes('DALI: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Dali, you found it");
         timeEvent()
-        const count = wordsvalidated.push('DALI')
+        const count = wordsvalidated.push('DALI: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
