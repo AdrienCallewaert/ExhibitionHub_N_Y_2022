@@ -65,10 +65,10 @@ $('#formgarage').on('submit', function(event) {
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "THE TERRACOTTA ARMY" && !(wordsvalidated.includes('THE TERRACOTTA ARMY'))) {
+    } else if (words === "THE TERRACOTTA ARMY" && !(wordsvalidated.includes('THE TERRACOTTA ARMY AND THE FIRST EMPEROR OF CHINA'))) {
         $('#result').text("You found it!");
         timeEvent()
-        const count = wordsvalidated.push('THE TERRACOTTA ARMY')
+        const count = wordsvalidated.push('THE TERRACOTTA ARMY AND THE FIRST EMPEROR OF CHINA')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
@@ -263,10 +263,10 @@ $('#formgarage').on('submit', function(event) {
         addenter()
         eventrue();
         // variation terracotta -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "TERRACOTTA" && !(wordsvalidated.includes('THE TERRACOTTA ARMY'))) {
+    } else if (words === "TERRACOTTA" && !(wordsvalidated.includes('THE TERRACOTTA ARMY AND THE FIRST EMPEROR OF CHINA'))) {
         $('#result').text("You found it!");
         timeEvent()
-        const count = wordsvalidated.push('THE TERRACOTTA ARMY')
+        const count = wordsvalidated.push('THE TERRACOTTA ARMY AND THE FIRST EMPEROR OF CHINA')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
