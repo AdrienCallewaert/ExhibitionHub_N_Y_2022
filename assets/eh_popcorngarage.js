@@ -22,28 +22,28 @@ $('#formgarage').on('submit', function(event) {
     const words = $('#formgarage #userinput').val();
     console.log(words);
 
-    if (words === "KLIMT" && !(wordsvalidated.includes('KLIMT'))) {
+    if (words === "KLIMT" && !(wordsvalidated.includes('KLIMT: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Klimt, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('KLIMT')
+        const count = wordsvalidated.push('KLIMT: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "VAN GOGH" && !(wordsvalidated.includes('VAN GOGH'))) {
+    } else if (words === "VAN GOGH" && !(wordsvalidated.includes('VAN GOGH: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Vincent, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('VAN GOGH')
+        const count = wordsvalidated.push('VAN GOGH: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "BANKSY" && !(wordsvalidated.includes('BANKSY'))) {
+    } else if (words === "BANKSY" && !(wordsvalidated.includes('BANKSY: GENIUS OR VANDAL?'))) {
         $('#result').text("Banksy, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('BANKSY')
+        const count = wordsvalidated.push('BANKSY: GENIUS OR VANDAL?')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
@@ -56,10 +56,10 @@ $('#formgarage').on('submit', function(event) {
         console.log(count)
         console.log(wordsvalidated)
         countscreen();
-    } else if (words === "MONET" && !(wordsvalidated.includes('MONET'))) {
+    } else if (words === "MONET" && !(wordsvalidated.includes('CLAUDE MONET: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Monet, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('MONET')
+        const count = wordsvalidated.push('CLAUDE MONET: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
@@ -186,48 +186,48 @@ $('#formgarage').on('submit', function(event) {
         addenter()
         eventrue();
         // variation klimt -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "GUSTAV KLIMT" && !(wordsvalidated.includes('KLIMT'))) {
+    } else if (words === "GUSTAV KLIMT" && !(wordsvalidated.includes('KLIMT: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Klimt, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('KLIMT')
+        const count = wordsvalidated.push('KLIMT: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "KLIMT GUSTAV" && !(wordsvalidated.includes('KLIMT'))) {
+    } else if (words === "KLIMT GUSTAV" && !(wordsvalidated.includes('KLIMT: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Klimt, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('KLIMT')
+        const count = wordsvalidated.push('KLIMT: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
         // variation van gogh -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "VINCENT VAN GOGH" && !(wordsvalidated.includes('VAN GOGH'))) {
+    } else if (words === "VINCENT VAN GOGH" && !(wordsvalidated.includes('VAN GOGH: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Vincent, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('VAN GOGH')
+        const count = wordsvalidated.push('VAN GOGH: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "VAN GOGH VINCENT" && !(wordsvalidated.includes('VAN GOGH'))) {
+    } else if (words === "VAN GOGH VINCENT" && !(wordsvalidated.includes('VAN GOGH: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Vincent, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('VAN GOGH')
+        const count = wordsvalidated.push('VAN GOGH: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
         // variation banksy -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "BANSKY" && !(wordsvalidated.includes('BANKSY'))) {
+    } else if (words === "BANSKY" && !(wordsvalidated.includes('BANKSY: GENIUS OR VANDAL?'))) {
         $('#result').text("Bansky, Giiiiiiiilles?");
         timeEvent()
-        const count = wordsvalidated.push('BANKSY')
+        const count = wordsvalidated.push('BANKSY: GENIUS OR VANDAL?')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
@@ -244,19 +244,19 @@ $('#formgarage').on('submit', function(event) {
         addenter()
         eventrue();
         // variation monet -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "CLAUDE MONET" && !(wordsvalidated.includes('MONET'))) {
+    } else if (words === "CLAUDE MONET" && !(wordsvalidated.includes('CLAUDE MONET: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Monet, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('MONET')
+        const count = wordsvalidated.push('CLAUDE MONET: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
         addenter()
         eventrue();
-    } else if (words === "MONET CLAUDE" && !(wordsvalidated.includes('MONET'))) {
+    } else if (words === "MONET CLAUDE" && !(wordsvalidated.includes('CLAUDE MONET: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Monet, you found it!");
         timeEvent()
-        const count = wordsvalidated.push('MONET')
+        const count = wordsvalidated.push('CLAUDE MONET: THE IMMERSIVE EXPERIENCE')
         console.log(count)
         console.log(wordsvalidated)
         countscreen()
