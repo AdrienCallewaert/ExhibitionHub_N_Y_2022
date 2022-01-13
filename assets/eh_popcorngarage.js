@@ -55,6 +55,7 @@ $('#formgarage').on('submit', function(event) {
         const count = wordsvalidated.push('DINOS ALIVE')
         console.log(count)
         console.log(wordsvalidated)
+        addenter()
         countscreen();
     } else if (words === "MONET" && !(wordsvalidated.includes('CLAUDE MONET: THE IMMERSIVE EXPERIENCE'))) {
         $('#result').text("Monet, you found it!");
