@@ -400,7 +400,7 @@ $('#formgarage').on('submit', function(event) {
         eventrue();
         // attention -----------------------------------------------------------------------------------------------------------------------------------
         // god mode -----------------------------------------------------------------------------------------------------------------------------------
-    } else if (words === "ADRIEN THE BEST" && !(wordsvalidated.includes('X'))) {
+    } else if (words === "42" && !(wordsvalidated.includes('X'))) {
         $('#result').text("GOD MODE ON!");
         timeEvent()
         const count = wordsvalidated.push('X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X')
@@ -409,6 +409,34 @@ $('#formgarage').on('submit', function(event) {
         countscreen()
         addenter()
         eventgodmod();
+        // variation dinos alive -----------------------------------------------------------------------------------------------------------------------------------
+    } else if (words === "DINOS" && !(wordsvalidated.includes('DINOS ALIVE'))) {
+        $('#result').text("Dinos, you found it!");
+        timeEvent()
+        const count = wordsvalidated.push('DINOS ALIVE')
+        console.log(count)
+        console.log(wordsvalidated)
+        countscreen()
+        addenter()
+        eventrue();
+    } else if (words === "DINO ALIVE" && !(wordsvalidated.includes('DINOS ALIVE'))) {
+        $('#result').text("Dinos, you found it!");
+        timeEvent()
+        const count = wordsvalidated.push('DINOS ALIVE')
+        console.log(count)
+        console.log(wordsvalidated)
+        countscreen()
+        addenter()
+        eventrue();
+    } else if (words === "DINOSAUR" && !(wordsvalidated.includes('DINOS ALIVE'))) {
+        $('#result').text("Dinos, you found it!");
+        timeEvent()
+        const count = wordsvalidated.push('DINOS ALIVE')
+        console.log(count)
+        console.log(wordsvalidated)
+        countscreen()
+        addenter()
+        eventrue();    
     } else {
         $('#result').text("Well, try again!");
         timeEvent()
@@ -429,7 +457,7 @@ function eventfalse() {
 }
 
 function eventgodmod() {
-    const music = new Audio('Sources/StarTrekTheme.ogg');
+    const music = new Audio('Sources/h2g2.ogg');
     music.play();
     music.loop = false;
 }
